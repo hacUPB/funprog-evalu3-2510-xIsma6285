@@ -1,0 +1,6 @@
+1. ¿Cuál es la función principal del preprocesador en C?
+2. ¿Por qué se dice que el código objeto (.o) no es directamente ejecutable?
+3. ¿Qué diferencia existe entre el código ensamblador** (.s) y el **código objeto** (.o)?
+4. ¿Para qué sirve la opción `S` en GCC?
+5. ¿Qué sucede si omitimos la etapa de **linker**?
+
