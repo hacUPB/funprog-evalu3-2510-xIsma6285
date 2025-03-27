@@ -7,7 +7,7 @@ void ley_de_ohm() {
     scanf("%f", &resistencia);
     if (resistencia != 0) {
         corriente = voltaje / resistencia;
-        printf ("Corriente: %.2f A\n");
+        printf ("Corriente: %f\n", corriente );
     } else {
         printf("La resistencia no puede ser cero crack. \n");
      }
@@ -62,7 +62,7 @@ void ley_de_ohm() {
     int main() {
         int opcion;
         do {
-            printf("Calculadora de Parámetros Eléctricos\n");
+            printf("Calculadora de Ohm\n");
             printf("1. Ley de Ohm\n2. Cálculo del factor potencia\n3. Resistencia de un conductor\n4. Resistencia para LED\n5. Salir\n");
             printf("Seleccione una opción: ");
             scanf("%d", &opcion);
