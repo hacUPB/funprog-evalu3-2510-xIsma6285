@@ -1,0 +1,5 @@
+La ley comienza por ingresar una funcion void independiente de todo para crear un menu de seleccion para el usuario.
+Se define las opciones que se le daran al usuario
+se crean funciones void para que el programa las evite hasta que se sean llamadas.
+El menu tambien es una funcion en si 
+dentro de cada funcion se define tanto sus restricciones como sus calculos 
