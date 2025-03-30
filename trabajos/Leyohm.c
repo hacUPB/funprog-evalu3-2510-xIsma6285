@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <math.h>
 void ley_de_ohm() {
     float voltaje, resistencia, corriente;
     printf("Ingrese el Voltaje (V):");
@@ -55,11 +56,11 @@ void ley_de_ohm() {
             resistencia = (voltaje_fuente - voltaje_led) / corriente;
             printf("Resistencia recomendada: %.2f Ohm\n", resistencia);
         } else {
-            printf("Error: La corriente no puede ser cero.\n");
+            printf("Error: La corriente no puede ser cero pa.\n");
         }
     }
 
-    int main() {
+    int main(void) {
         int opcion;
         do {
             printf("Calculadora de Ohm\n");
